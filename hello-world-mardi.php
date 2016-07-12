@@ -8,11 +8,11 @@
 function HelloWorld($name)
 {
   if($name == null){
-    echo "Helloworld";
+    echo "Hello,world";
   }
   else {
     echo "Hello," . "  " . $name;
   }
 }
- HelloWorld("Alice");
+ HelloWorld("Alice!");
   ?>
