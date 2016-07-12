@@ -5,10 +5,10 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function helloWorld($name)
+function Hello,Alice($name)
 {
-  return "helloWorld" . "  " . $name;
+  echo "Hello," . "  " . $name;
 
   }
- helloWorld("Yvan");
+ Hello,Alice($name);
   ?>
