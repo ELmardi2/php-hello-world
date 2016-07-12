@@ -7,7 +7,7 @@
 
 function helloWorld($name)
 {
-  echo "helloWorld" . "  " . $name;
+  return "helloWorld" . "  " . $name;
 
   }
  helloWorld("Yvan");
