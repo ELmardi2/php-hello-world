@@ -7,12 +7,11 @@
 
 function HelloWorld($name = "")
 {
-  if($name == ""){
-    echo "Hello, world";
+  if($name == "") {
+    return "Hello, World!";
   }
   else {
-    echo "Hello," . "  " . $name;
+    return "Hello, " . $name . "!";
   }
 }
- HelloWorld("Alice!");
-  ?>
+//HelloWorld("Alice!");
