@@ -7,7 +7,9 @@
 
 function helloWorld($name)
 {
-    //
-    // YOUR CODE GOES HERE
-    //
+    $name = "Cécile" ;
+$str  =  "helloWorld" . $name;
+
 }
+function helloWorld($name)
+?>
