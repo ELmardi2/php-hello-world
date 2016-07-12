@@ -5,9 +5,9 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function HelloWorld($name)
+function HelloWorld($name = "")
 {
-  if($name == null){
+  if($name == ""){
     echo "Hello, world";
   }
   else {
