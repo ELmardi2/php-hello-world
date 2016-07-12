@@ -5,10 +5,14 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function Hello,Alice($name)
+function HelloWorld($name)
 {
-  echo "Hello," . "  " . $name;
-
+  if($name == null){
+    echo "Hello, world";
   }
- Hello,Alice($name);
+  else {
+    echo "Hello," . "  " . $name;
+  }
+}
+ HelloWorld("Alice");
   ?>
