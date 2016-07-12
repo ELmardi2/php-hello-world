@@ -14,5 +14,5 @@ function HelloWorld($name)
     echo "Hello," . "  " . $name;
   }
 }
- HelloWorld("Alice");
+ HelloWorld("Alice!");
   ?>
